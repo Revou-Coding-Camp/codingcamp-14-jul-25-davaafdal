@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    height: 40px;
+}
+
+nav button {
+    margin: 0 5px;
+    padding: 5px 10px;
+}
+
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+
+.hero img {
+    width: 100%;
+    max-width: 1366px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.headquarter {
+    padding: 20px;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    text-align: center;
+}
+
+.cities {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.message-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+form input, form textarea {
+    padding: 5px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px;
+}
+
+.result {
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}

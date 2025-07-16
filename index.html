@@ -2,63 +2,67 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Website Pertama</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
+
     <header>
-        <div class="logo">🖥️</div>
+        <img src="images/Revou logo.png" alt="RevoU Logo" class="logo">
         <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Our Profile</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Message Us</a></li>
-            </ul>
+            <button>Home</button>
+            <button>Our Profile</button>
+            <button>Portfolio</button>
+            <button>Message Us</button>
         </nav>
     </header>
 
-    <main>
-        <section class="welcome">
-            <h1>Hi Harfi, Welcome To Website</h1>
-            <p>Ini adalah website latihan pertama.</p>
-            <p>1366 x 578</p>
-        </section>
 
-        <section class="headquarters">
-            <h2>Our Headquarter</h2>
-            <div class="locations">
-                <div class="location">Jakarta</div>
-                <div class="location">Bandung</div>
-                <div class="location">Surabaya</div>
+        <h2>Hi Dava, Welcome To Website</h2>
+        <p>Ini adalah website latihan pertama</p>
+        <img src="https://via.placeholder.com/1366x578" alt="hero image">
+    </section>
+
+    <section class="headquarter">
+        <h3>Our Headquarter</h3>
+        <div class="cities">
+            <div>
+                <div class="circle"></div>
+                <p>Jakarta</p>
             </div>
-        </section>
+            <div>
+                <div class="circle"></div>
+                <p>Bandung</p>
+            </div>
+            <div>
+                <div class="circle"></div>
+                <p>Surabaya</p>
+            </div>
+        </div>
+    </section>
 
-        <section class="message">
-            <h2>Message Us</h2>
-            <form id="messageForm">
-                <label for="name">Nama:</label>
-                <input type="text" id="name" required>
-                
-                <label for="birthDate">Tanggal Lahir:</label>
-                <input type="date" id="birthDate" required>
-                
-                <label for="gender">Jenis Kelamin:</label>
-                <select id="gender" required>
-                    <option value="Laki-Laki">Laki-Laki</option>
-                    <option value="Perempuan">Perempuan</option>
-                </select>
-                
-                <label for="message">Pesan:</label>
-                <textarea id="message" required></textarea>
-                
-                <button type="submit">Submit</button>
-            </form>
-            <div id="output" class="output"></div>
-        </section>
-    </main>
+    <section class="message-us">
+        <h3>Message Us</h3>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Nama" required>
+            <input type="date" id="birth" required>
+            <div>
+                <label><input type="radio" name="gender" value="Laki-Laki"> Laki-Laki</label>
+                <label><input type="radio" name="gender" value="Perempuan"> Perempuan</label>
+            </div>
+            <textarea id="message" placeholder="Pesan"></textarea>
+            <button type="submit">Submit</button>
+        </form>
 
-    <script src="script.js"></script>
+        <div class="result" id="resultBox">
+            <!-- Hasil dari JS akan muncul di sini -->
+        </div>
+    </section>
+
+    <footer>
+        Created By RevoU
+    </footer>
+
 </body>
 </html>
