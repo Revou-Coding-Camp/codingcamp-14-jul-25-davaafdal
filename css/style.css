@@ -26,15 +26,14 @@ nav button {
     padding: 20px;
 }
 
-.hero img {
-    width: 100%;
-    max-width: 1366px;
+.latar img {
+    width: 10000%;
     height: auto;
-    margin-top: 20px;
+    display:block;
 }
 
 .headquarter {
-    padding: 20px;
+    padding: 60px;
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
     text-align: center;
